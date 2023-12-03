@@ -18,3 +18,23 @@
 | colorOnSurface                 | Couleur qui respecte les consignes d’accessibilité pour le texte/l’iconographie lorsqu’elle est dessinée au-dessus de la couleur de surface.                                                                                                                                                                                                                                                                                                        |         #000000         |
 | colorError (Erreur de couleur) | La couleur d’erreur indique les états d’erreur, pour les composants tels que les champs de texte                                                                                                                                                                                                                                                                                                                                                    |         #B00020         |
 | colorOnError                   | Une couleur qui répond aux directives d’accessibilité pour le texte/l’iconographie lorsqu’elle est dessinée au-dessus de la couleur d’erreur.                                                                                                                                                                                                                                                                                                       |         #FFFFFF         |
+
+```
+<resources>
+  <color name="color_primary">...</color>
+  <color name="color_surface">...</color>
+</resources>
+```
+
+```
+<resources>
+  <color name="brand_blue">...</color>
+  <color name="brand_grey">...</color>
+</resources>
+```
+
+```
+<style name="Widget.MyApp.Button" parent="Widget.MaterialComponents.Button">
+  <item name="backgroundTint">?attr/colorSecondary</item>
+</style>
+```
