@@ -2,6 +2,8 @@
 ---
 <p>Utilisation du système de thème des couleurs</p>
 
+*Fichier colors.xml et themes.xml*
+
 | Nom de l’attribut              | Description                                                                                                                                                                                                                                                                   |       Valeur par défaut        |
 |--------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------:|
 | colorPrimary (couleurPrimaire) | La couleur qui s’affiche le plus fréquemment sur les écrans et les composants de votre application. Cette couleur doit respecter les directives d’accessibilité pour le texte / l’iconographie lorsqu’elle est dessinée au-dessus de la couleur de surface ou d’arrière-plan. |            #6200EE             | 
