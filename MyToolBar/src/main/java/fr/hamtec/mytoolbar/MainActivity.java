@@ -20,5 +20,7 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding( systemBars.left, systemBars.top, systemBars.right, systemBars.bottom );
             return insets;
         } );
+        //? Pour qu’elle soit considérée comme une ActionBar, vous devez le dire explicitement à votre Activity qui doit obligatoirement hériter de AppCompatActivity
+        setSupportActionBar(findViewById(R.id.toolbar));
     }
 }
