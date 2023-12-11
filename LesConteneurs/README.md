@@ -23,5 +23,3 @@
 - android :layout_below : Place l’élément en dessous de l’élément spécifié
 - android :layout_toLeftOf : Place l’élément à gauche de l’élément spécifié
 - android :layout_toRightOf : Place l’élément à droite de l’élément spécifié
-
-  ![Image-1](http://www.sampleurl.com/logo.png)
