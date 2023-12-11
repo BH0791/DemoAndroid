@@ -6,4 +6,4 @@
   
 >># DemoAndroid
 >
->*Jdk-20 Gradle-8.5 et IDE:Iguana-2023.2.1-Canary-16*
+>*Jdk-20/21 Gradle-8.5 et IDE:Iguana-2023.2.1-Canary-16*
