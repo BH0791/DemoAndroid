@@ -1,0 +1,24 @@
+Attributs XML
+android:layout_above	                    Positionne le bord inférieur de cette vue au-dessus de l’ID de vue d’ancrage donné.
+android:layout_alignBaseline	            Positionne la ligne de base de cette vue sur la ligne de base de l’ID de vue d’ancrage donné.
+android:layout_alignBottom	                Fait correspondre le bord inférieur de cette vue au bord inférieur de l’ID de vue d’ancrage donné.
+android:layout_alignEnd	                    Fait correspondre l’arête d’extrémité de cette vue à l’arête d’extrémité de l’ID de vue d’ancrage donné.
+android:layout_alignLeft	                Fait correspondre le bord gauche de cette vue au bord gauche de l’ID de vue d’ancrage donné.
+android:layout_alignParentBottom	        Si la valeur est true, le bord inférieur de cette vue correspond au bord inférieur du parent.
+android:layout_alignParentEnd	            Si la valeur est true, l’arête d’extrémité de cette vue correspond à l’arête d’extrémité du parent.
+android:layout_alignParentLeft	            Si la valeur est true, le bord gauche de cette vue correspond au bord gauche du parent.
+android:layout_alignParentRight	            Si la valeur est true, le bord droit de cette vue correspond au bord droit du parent.
+android:layout_alignParentStart	            Si la valeur est true, l’arête de départ de cette vue correspond à l’arête de départ du parent.
+android:layout_alignParentTop	            Si la valeur est true, le bord supérieur de cette vue correspond au bord supérieur du parent.
+android:layout_alignRight	                Fait correspondre le bord droit de cette vue au bord droit de l’ID de vue d’ancrage donné.
+android:layout_alignStart	                Fait correspondre l’arête de départ de cette vue à l’arête de départ de l’ID de vue d’ancrage donné.
+android:layout_alignTop	                    Fait correspondre le bord supérieur de cette vue au bord supérieur de l’ID de vue d’ancrage donné.
+android:layout_alignWithParentIfMissing	    S’il est défini sur true, le parent sera utilisé comme ancre lorsque l’ancre ne peut pas être pour layout_toLeftOf, layout_toRightOf, etc.
+android:layout_below	                    Positionne le bord supérieur de cette vue sous l’ID de vue d’ancrage donné.
+android:layout_centerHorizontal	            Si la valeur est true, centre cet enfant horizontalement dans son parent.
+android:layout_centerInParent	            Si la valeur est true, centre cet enfant horizontalement et verticalement dans son parent.
+android:layout_centerVertical	            Si la valeur est true, centre cet enfant verticalement dans son parent.
+android:layout_toEndOf	                    Positionne l’arête de départ de cette vue à la fin de l’ID de vue d’ancrage donné.
+android:layout_toLeftOf	                    Positionne le bord droit de cette vue à gauche de l’ID de vue d’ancrage donné.
+android:layout_toRightOf	                Positionne le bord gauche de cette vue à droite de l’ID de vue d’ancrage donné.
+android:layout_toStartOf	                Positionne l’arête d’extrémité de cette vue au début de l’ID de vue d’ancrage donné.
