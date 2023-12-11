@@ -1,5 +1,5 @@
 >> # Les conteneurs
-> <p>RelativeLayout :<br>Une mise en page où les positions des enfants peuvent être décrites les une par rapport aux autres ou par rapport au parent.<br><br>==> Positionrelative aux autres élément :</p>
+> <p align="left">RelativeLayout :<br>Une mise en page où les positions des enfants peuvent être décrites les une par rapport aux autres ou par rapport au parent.<br><br>==> Positionrelative aux autres élément :</p>
 - android:layout_above : élément placé au-dessus de celui indiqué par son id
 - android:layout_below : en dessous 
 - android:layout_toLeftOf : à gauche android:layout_toRightOf :  droite 
