@@ -22,7 +22,7 @@
     
     <!-- Voici un exemple de style que vous pourriez utiliser pour les onglets, Tab : -->
     <style name="TextAppearance.Randoomz.Tab" parent="TextAppearance.Design.Tab">
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">15sp</item>
         <item name="android:textColor">?android:textColorSecondary</item>
         <item name="textAllCaps">true</item>
     </style>
