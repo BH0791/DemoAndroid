@@ -1,9 +1,74 @@
 <resources xmlns:tools = "http://schemas.android.com/tools" >
-    <!-- Base application theme. -->
-    <style name = "Base.Theme.DemoAndroid" parent = "Theme.Material3.DayNight.NoActionBar" >
+    <!-- Base application theme. les couleurs sont dans le fichier colors.xml -> environ 150 couleurs-->
+    <!-- colorPrimary, colorPrimaryDark et colorAccent définissent les couleurs principales de votre application -->
+    <!-- Pensez à choisir des couleurs harmonieuses pour ces 3 propriétés. -->
+    
+    <style name = "Base.Theme.ZdS" parent = "Theme.AppCompat.Light.NoActionBar">
+        <!-- 1- Votre barre d’action prendra la couleur de colorPrimary -->
+        <item name="colorPrimary">@color/RoyalBlue</item>
+        <!-- 2- La barre d’état prendra la couleur de colorPrimaryDark -->
+        <item name="colorPrimaryDark">@color/dark_primary</item>
+        <!-- 3- Les actions secondaires (comme les boutons flottants) prendront la couleur de colorAccent -->
+        <item name="colorAccent">@color/accent</item>
+        <!-- android:textColorPrimary définit la couleur de votre texte en dehors de la barre d’action -->
+        <item name="android:textColorPrimary">@color/Blue</item>
+        <!-- android:windowBackground définit la couleur du fond de votre application -->
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+    
+    <style name = "AppTheme" parent = "Base.Theme.ZdS" >
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style >
     
-    <style name = "Theme.DemoAndroid" parent = "Base.Theme.DemoAndroid" />
+    <!-- Voici un exemple de style que vous pourriez utiliser pour les onglets, Tab : -->
+    <style name="TextAppearance.Randoomz.Tab" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="textAllCaps">true</item>
+    </style>
+    
+    <style name="Widget.Randoomz.TabLayout" parent="Widget.Design.TabLayout">
+        <!-- tabMaxWidth donne la hauteur maximale de vos onglets. -->
+        <item name="tabMaxWidth">@dimen/tab_max_width</item>
+        <!-- tabIndicatorColor donne la couleur à l’indicateur placé sous un onglet quand il est sélectionné. -->
+        <item name="tabIndicatorColor">?attr/colorAccent</item>
+        <!-- tabIndicatorHeight donne la hauteur de l’indicateur. -->
+        <item name="tabIndicatorHeight">4dp</item>
+        <!-- tabPaddingStart place un espace à gauche de l’onglet pour éviter de coller son texte sur son bord. -->
+        <item name="tabPaddingStart">12dp</item>
+        <!-- tabPaddingEnd place un espace à droite de l’onglet pour éviter de coller son texte sur son bord. -->
+        <item name="tabPaddingEnd">12dp</item>
+        <!-- tabBackground donne la couleur du fond des onglets. Gardez en tête que la couleur renseignée doit aussi gérer le retour
+            visuel. A la place d’une simple couleur, préférez un selector pour renseigner les couleurs aux différents états de l’onglet. -->
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <!-- tabTextAppearance donne le style du texte des onglets. Nous renseignons ici notre précédent style. -->
+        <item name="tabTextAppearance">@style/TextAppearance.Randoomz.Tab</item>
+        <!-- tabSelectedTextColor donne la couleur du texte de l’onglet quand il est sélectionné. -->
+        <item name="tabSelectedTextColor">?android:textColorPrimary</item>
+    </style>
+    
+    <!-- nous spécifions simplement la taille et la mise en italique du titre -->
+    <style name="TextAppearance.Randoomz.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    
+    <!-- Le second thème est plus intéressant puisque c’est lui qui va personnaliser toutes les couleurs de la barre. -->
+    <style name="ThemeOverlay.Randoomz.Toolbar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- android:textColorPrimary donne la couleur au titre de la barre. -->
+        <item name="android:textColorPrimary">@android:color/holo_blue_light</item>
+        <!-- actionMenuTextColor donne la couleur des textes du menu affiché sur la barre -->
+        <item name="actionMenuTextColor">@android:color/holo_green_light</item>
+        <!-- colorAccent donne la couleur des checkboxes que vous pouvez avoir dans vos menus. -->
+        <item name="colorAccent">@android:color/holo_orange_dark</item>
+        <!-- colorControlNormal donne la couleur de l’icône à 3 points destiné à afficher les menus cachés. -->
+        <item name="colorControlNormal">@android:color/holo_purple</item>
+        <!-- colorControlActivated donne la couleur de certaines vues à l’état activé (comme les switch ou les checkboxes). -->
+        <item name="colorControlActivated">@android:color/holo_red_dark</item>
+        <!-- colorControlHighlight donne la couleur des retours utilisateurs sur les boutons du menu. -->
+        <item name="colorControlHighlight">@android:color/holo_red_dark</item>
+    </style>
+
+
+
 </resources >
