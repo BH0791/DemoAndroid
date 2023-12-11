@@ -1,0 +1,30 @@
+android:id : Cet attribut est utilisé pour définir l’id de la barre d’outils. L’ID est utilisé pour identifier de manière unique une barre d’outils.
+app:logo : Cet attribut est utilisé pour définir le logo dessinable qui apparaît au début de la barre d’outils, juste après le bouton de navigation. Nous pouvons également le faire par programmation en utilisant la méthode setLogo().
+app:logoDescription : Cet attribut est utilisé pour définir la chaîne de description du contenu afin de décrire l’apparence de l’image de logo associée. Nous pouvons également le faire par programmation en utilisant la méthode setLogoDescription().
+app:navigationIcon : Cet attribut est utilisé pour définir l’icône dessinable pour le bouton de navigation situé au début de la barre d’outils. Nous pouvons également le faire par programmation en utilisant la méthode setNavigationIcon().
+app:navigationContentDescription : Cet attribut est utilisé pour définir le texte de la description du bouton de navigation. Nous pouvons également le faire par programmation en utilisant la méthode setNavigationContentDescription().
+app:title: Cet attribut est utilisé pour définir le titre de la barre d’outils. Nous pouvons également le faire par programmation en utilisant la méthode setTitle().
+app:titleTextColor : Cet attribut est utilisé pour définir la couleur du texte du titre. Nous pouvons également le faire par programmation en utilisant la méthode setTitleTextColor().
+app:subtitle : Cet attribut est utilisé pour définir le sous-titre de la barre d’outils. Nous pouvons également le faire par programmation en utilisant la méthode setSubtitle().
+app:subtitleTextColor : Cette méthode est utilisée pour définir la couleur du sous-titre. Nous pouvons également le faire par programmation en utilisant la méthode setSubtitleTextColor().
+
+setLogo(int resId) : Cette méthode permet d’ajouter un logo pouvant être dessiné à partir d’un ID de ressource. Ci-dessous, nous définissons un logo dessinable dans notre barre d’outils.
+Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar); // get the reference of Toolbar
+setSupportActionBar(toolbar); // Setting/replace toolbar as the ActionBar
+getSupportActionBar().setDisplayShowTitleEnabled(false); // hide the current title from the Toolbar
+toolbar.setLogo(R.drawable.logo); // setting a logo in toolbar
+
+setLogo(Dessinable dessinable) : Cette méthode est également utilisée pour ajouter un logo dessinable dans notre barre d’outils. Dans cette méthode, nous définissons un objet dessinable. Ci-dessous, nous définissons un logo dessinable dans notre barre d’outils.
+Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar); // get the reference of Toolbar
+setSupportActionBar(toolbar); // Setting/replace toolbar as the ActionBar
+getSupportActionBar().setDisplayShowTitleEnabled(false); // hide the current title from the Toolbar
+toolbar.setLogo(getResources().getDrawable(R.drawable.logo)); // setting a logo in toolbar
+
+getLogo() : Cette méthode est utilisée pour obtenir l’icône du logo à partir de la barre d’outils. Cette méthode renvoie le logo Drawable que nous définissons à l’aide de la méthode setLogo().
+Ci-dessous, nous définissons d’abord le logo dessinable, puis obtenons la même chose à partir de la barre d’outils.
+Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar); // get the reference of Toolbar
+setSupportActionBar(toolbar); // Setting/replace toolbar as the ActionBar
+toolbar.setLogo(getResources().getDrawable(R.drawable.logo)); // setting a logo in toolbar
+Drawable drawableLogo=toolbar.getLogo(); // get the drawable logo from Toolbar
+getSupportActionBar().setDisplayShowTitleEnabled(false); // hide the current title from the Toolbar
+

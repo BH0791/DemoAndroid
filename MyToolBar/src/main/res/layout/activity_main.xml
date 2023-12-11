@@ -14,14 +14,26 @@
             android:layout_width = "match_parent"
             android:layout_height = "?attr/actionBarSize"
             android:background="?attr/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.Randoomz.Toolbar"
+            app:titleTextAppearance="@style/TextAppearance.Randoomz.Toolbar.Title"
+            app:logo="@drawable/ic_launcher_foreground"
+            app:logoDescription="LOGO"
+            app:navigationContentDescription="Navigation Description"
+            app:navigationIcon="@drawable/ic_name"
+            app:title="Titre"
+            app:titleTextColor="#FF552398"
+            app:subtitle="Sous titre"
+            app:subtitleTextColor="#FF00FF00"
             />
-    <FrameLayout
-            android:id="@+id/content"
+    
+    <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
             android:layout_width = "match_parent"
-            android:layout_height = "match_parent"
+            android:layout_height = "0dp"
+            android:layout_weight="1"
             android:background="@color/Beige"
-            />
-    
-    
+            >
+    </androidx.viewpager.widget.ViewPager>
 
 </LinearLayout >
