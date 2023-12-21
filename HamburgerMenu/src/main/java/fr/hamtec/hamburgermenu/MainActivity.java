@@ -9,12 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 public class MainActivity extends AppCompatActivity {
@@ -31,9 +27,10 @@ public class MainActivity extends AppCompatActivity {
         
         btn_valider.setOnClickListener( vvv -> {
             Log.d( "HAMID", " btn_valider.setOnClickListener !" );
-            Toast.makeText(this, "Clicked on Button", Toast.LENGTH_LONG).show();
+            //Toast.makeText(MainActivity.this, "Clicked on Button", Toast.LENGTH_LONG).show();
             drawerLayout.closeDrawer( Gravity.RIGHT );
         } );
+        
         btn_oui.setOnClickListener( ccc -> {
             Log.d( "HAMID", " btn_oui.setOnClickListener ! " );
         } );
