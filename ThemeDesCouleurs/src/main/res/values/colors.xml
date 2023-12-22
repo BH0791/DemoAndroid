@@ -12,7 +12,7 @@
     <color name = "dark_primary" >@color/Coral</color >
     <color name = "textColor">#FF294C60</color>
     <!-- Sur les textes des bouton -->
-    <color name = "colorOnPrimary">#CC575324</color>
+    <color name = "colorOnPrimary">@color/purple_50</color>
     <color name = "colorOnSecondary">#FF000000</color>
     <color name = "colorPrimaryVariant">#FF0035C9</color>
     <color name = "colorSecondaryVariant">#FFFFC0FF</color>
@@ -32,6 +32,7 @@
     <!-- ******************** PALETTE COLOR ******************** -->
     <!-- ******************************************************* -->
     
+    <color name ="purple_50">#FFEFE5FD</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
