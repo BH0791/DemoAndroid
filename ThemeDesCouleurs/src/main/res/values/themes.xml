@@ -1,167 +1,41 @@
 <resources xmlns:tools = "http://schemas.android.com/tools" >
-    <!-- Base application theme. -->
-    <style name = "Base.Theme.BacASableAndroid" parent = "Theme.Material3.DayNight.NoActionBar" >
-        <!-- Customize your light theme here. -->
-        <!-- barre d’action prendra la couleur de colorPrimary -->
-        <!-- couleur qui s’affiche le plus fréquemment sur les écrans et les composants de votre application.
-        Cette couleur doit respecter les directives d’accessibilité pour le texte / l’iconographie lorsqu’elle
-        est dessinée au-dessus de la couleur de surface ou d’arrière-plan -->
-        <item name="colorPrimary">@color/primaryColor</item>
-        <!-- couleur de marque secondaire de l’application, généralement un complément accentué à la couleur de marque principale. -->
-        <item name = "colorSecondary">@color/secondaryColor</item>
-        <!-- couleur qui respecte les consignes d’accessibilité pour le texte/l’iconographie lorsqu’elle est
-        dessinée au-dessus de la couleur primaire. -->
-        <item name = "colorOnPrimary">@color/colorOnPrimary</item>
-        <!-- couleur qui respecte les consignes d’accessibilité pour le texte/l’iconographie lorsqu’elle est dessinée au-dessus de la couleur secondaire. -->
-        <item name = "colorOnSecondary">@color/colorOnSecondary</item>
-        <!-- variation tonale de la couleur primaire. -->
-        <item name = "colorPrimaryVariant">@color/colorPrimaryVariant</item>
-        <!-- variation tonale de la couleur secondaire. -->
-        <item name = "colorSecondaryVariant">@color/colorSecondaryVariant</item>
-        <!-- Couleurs de surface
-            Les surfaces colorées peuvent être un excellent moyen d’exprimer votre marque dans des composants couramment
-            utilisés, tels que des cartes. Alors que les couleurs vives et audacieuses fonctionnent très bien sur un fond
-            blanc, leur lisibilité sur un fond sombre n’est pas si grande.
-            Si l’appareil et/ou l’application ont été configurés pour utiliser un thème sombre, l’application doit
-            l’interpréter comme une intention de l’utilisateur qui souhaite une palette de couleurs sourdes et moins vives à ce moment-là.
-            En gardant cela à l’esprit, même si nous utilisons des tons de 50 à 200 couleurs atténués pour les surfaces de marque, cela
-            peut toujours être trop audacieux et émettre trop de lumière pour un thème sombre : -->
-        <item name = "colorSurface">@color/colorSurface</item>
-        <item name = "colorOnSurface">@color/colorOnSurface</item>
-        <item name = "colorError">@color/colorError</item>
-        <item name = "colorOnBackground">@color/colorOnBackground</item>
-        <!-- la couleur de la barre d’état Android  -->
-        <!-- couleur de la barre d’état et de l’application contextuelle Bars; il s’agit normalement d’une version sombre de colorPrimary. -->
-        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
-        
-        <item name="colorAccent">@color/accent</item>
-        <!-- définit la couleur de votre texte en dehors de la barre d’action  -->
-        <item name="android:textColorPrimary">@color/DarkGreen</item>
-        <!-- n’affecte que l’arrière-plan de la fenêtre principale définit la couleur du fond de votre application -->
-        <item name="android:windowBackground">@color/Beige</item>
-        <!-- C'est pout tout le monde -->
     
+    <!-- Base application theme. -->
+    <style name = "Theme.TipTime" parent = "Theme.MaterialComponents.DayNight.DarkActionBar" >
+        <!-- Primary brand color. -->
+        <item name = "colorPrimary" >@color/green</item >
+        <item name = "colorPrimaryVariant" >@color/green_dark</item >
+        <item name = "colorOnPrimary" >@color/white</item >
+        <!-- Secondary brand color. -->
+        <item name = "colorSecondary" >@color/blue</item >
+        <item name = "colorSecondaryVariant" >@color/blue_dark</item >
+        <item name = "colorOnSecondary" >@color/black</item >
+        <!-- Status bar color. -->
+        <item name = "android:statusBarColor" tools:targetApi = "l" >?attr/colorPrimaryVariant</item >
+        <!-- Customize your theme here. -->
+        <item name = "colorOnSecondaryContainer" >@color/Orange</item >
+        <item name = "colorSecondaryContainer" >@color/Tan</item >
+        <!-- Tertiary brand color -->
+        <item name = "colorTertiary" >#916EFF</item >
+        <item name = "colorOnTertiary" >#1C1237</item >
+        <item name = "colorTertiaryContainer" >#DFAD61</item >
+        <item name = "colorOnTertiaryContainer" >#D2C2FD</item >
+        <!-- Error brand color -->
+        <item name = "colorErrorContainer" >#EC5085</item >
+        <item name = "colorOnErrorContainer" >#981C46</item >
+        <item name = "colorError" >#571A61</item >
+        <!-- Surface brand color -->
+        <item name = "colorSurface" >#571A61</item >
+        <item name = "colorOnSurface" >#571A61</item >
+        <item name = "colorSurfaceContainer" >#571A61</item >
+        <item name = "colorSurfaceContainerLowest">#15FFAB</item>
+        <item name = "colorSurfaceContainerLow">#FA5DB4</item>
+        <item name = "colorSurfaceContainerHigh">#5487DB</item>
+        <item name = "colorSurfaceContainerHighest">#748563</item>
+        <!-- Inverse colors -->
+        <item name = "colorSurfaceInverse">#FFEB3B</item>
+        <item name = "colorOnSurfaceInverse">#B5AD65</item>
+        <item name = "colorPrimaryInverse">#857A1D</item>
     </style >
-    <style name = "themeDefault" parent="Theme.MaterialComponents.DayNight">
-        <!-- Toutes ces couleurs peuvent être personnalisées pour votre application. -->
-        <item name="colorPrimary">@color/purple500</item>
-        <item name = "colorPrimaryVariant">@color/purple700</item>
-        <item name = "colorSecondary">@color/vert400</item>
-        <item name = "colorSecondaryVariant">@color/vert600</item>
-        
-        
-        <item name = "android:colorBackground">#FFFFFF</item>
-        <item name = "colorSurface">#FFFFFF</item>
-        <item name = "colorError">#B00020</item>
-        
-        <item name = "colorOnPrimary">#FFFFFF</item>
-        <item name = "colorOnSecondary">#000000</item>
-        <item name = "colorOnBackground">#000000</item>
-        <item name = "colorOnSurface">#000000</item>
-        <item name = "colorOnError">#FFFFFF</item>
-    </style>
-    
-    <style name = "premierTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/green</item>
-        <item name="colorPrimaryVariant">@color/green_dark</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/blue</item>
-        <item name="colorSecondaryVariant">@color/blue_dark</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
-    </style>
-    <!-- Base application theme. -->
-    <style name="Theme.TipTime" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/green</item>
-        <item name="colorPrimaryVariant">@color/green_dark</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/blue</item>
-        <item name="colorSecondaryVariant">@color/blue_dark</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
-    </style>
-    
-    
-    <style name="Theme.MyApp" parent="Theme.MaterialComponents.DayNight">
-        <!-- ... -->
-        <!-- Si la fonctionnalité de superposition d’altitude est activée. -->
-        <item name = "elevationOverlayEnabled">false</item>
-        <!-- Couleur utilisée pour les superpositions d’altitude, appliquée à un alpha basé sur l’altitude. -->
-        <item name = "elevationOverlayColor">@color/colorOnSurface</item>
-    </style>
-    
-    <!-- Personnalisation des boutons -->
-    <style name="Widget.MyApp.Button" parent="Widget.MaterialComponents.Button">
-        <item name="backgroundTint">?attr/colorSecondary</item>
-        <item name = "android:textStyle">italic</item>
-        <item name = "android:textSize">15sp</item>
-    </style>
-    
-    <style name = "Theme.BacASableAndroid" parent = "Base.Theme.BacASableAndroid" />
-    
-    
-    <style name="TextAppearance.Randoomz.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
-        <item name="android:textSize">21sp</item>
-        <item name="android:textStyle">italic</item>
-    </style>
-    
-    <style name="ThemeOverlay.Randoomz.Toolbar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
-        <!-- la couleur au titre de la barre -->
-        <item name="android:textColorPrimary">@color/BlanchedAlmond</item>
-        <!-- la couleur des textes du menu affiché sur la barre -->
-        <item name="actionMenuTextColor">@color/Green</item>
-        <!-- la couleur des checkboxes que vous pouvez avoir dans vos menus. -->
-        <item name="colorAccent">@color/Orange</item>
-        <!-- la couleur de l’icône à 3 points destiné à afficher les menus cachés -->
-        <item name="colorControlNormal">@color/Purple</item>
-        <!-- la couleur de certaines vues à l’état activé (comme les switch ou les checkboxes). -->
-        <item name="colorControlActivated">@color/DarkRed</item>
-        <!-- la couleur des retours utilisateurs sur les boutons du menu. -->
-        <item name="colorControlHighlight">@color/DarkRed</item>
-        
-        <item name = "android:textColor">@color/Gold</item>
-    </style>
-    
-    <style name = "ThemeOverlay.Randoomz.TextView" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
-        <item name = "android:textSize">20sp</item>
-        <item name="android:textColor">#0531B6</item>
-        <item name="android:typeface">monospace</item>
-    </style>
-    
-    <!-- Style d’un onglet -->
-    
-    <style name="TextAppearance.Randoomz.Tab" parent="TextAppearance.Design.Tab">
-        <item name="android:textSize">14sp</item>
-        <item name="android:textColor">?android:textColorSecondary</item>
-        <item name="textAllCaps">true</item>
-    </style>
-    
-    <!-- Style du conteneur des onglets -->
-    
-    <style name="Widget.Randoomz.TabLayout" parent="Widget.Design.TabLayout">
-        <!-- la hauteur maximale de vos onglets. -->
-        <item name="tabMaxWidth">200dp</item>
-        <!-- la couleur à l’indicateur placé sous un onglet quand il est sélectionné. -->
-        <item name="tabIndicatorColor">?attr/colorAccent</item>
-        <!-- la hauteur de l’indicateur. -->
-        <item name="tabIndicatorHeight">4dp</item>
-        <!-- place un espace à gauche de l’onglet pour éviter de coller son texte sur son bord. -->
-        <item name="tabPaddingStart">12dp</item>
-        <!-- place un espace à droite de l’onglet pour éviter de coller son texte sur son bord. -->
-        <item name="tabPaddingEnd">12dp</item>
-        <!-- a couleur du fond des onglets. Gardez en tête que la couleur renseignée doit aussi gérer le retour visuel. A la place d’une simple couleur , préférez un selector pour renseigner les couleurs aux différents états de l’onglet. -->
-        <item name="tabBackground">?attr/selectableItemBackground</item>
-        <!-- e style du texte des onglets. Nous renseignons ici notre précédent style. -->
-        <item name="tabTextAppearance">@style/TextAppearance.Randoomz.Tab</item>
-        <!--  la couleur du texte de l’onglet quand il est sélectionné. -->
-        <item name="tabSelectedTextColor">?android:textColorPrimary</item>
-    </style>
+
 </resources >
