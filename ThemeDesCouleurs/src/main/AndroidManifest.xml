@@ -7,7 +7,7 @@
             android:label = "@string/app_name"
             android:roundIcon = "@mipmap/ic_launcher_round"
             android:supportsRtl = "true"
-            android:theme = "@style/Theme.DemoAndroid"
+            android:theme = "@style/Base.Theme.BacASableAndroid"
             >
         <activity
                 android:name = ".MainActivity"

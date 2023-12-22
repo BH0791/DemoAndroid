@@ -1,17 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources >
     <!-- Base application theme. -->
-    <color name="primaryColor">#717EC4</color>
-    <color name="primaryLightColor">#666ad1</color>
-    <color name="primaryDarkColor">#001970</color>
-    <color name = "primary_text" >#C6CFFF</color >
+    <color name="primaryColor">@color/MintPastel</color>
+    <color name = "secondaryColor" >@color/YellowPastel</color >
+    <color name="primaryLightColor">@color/TiffanyBluePastel</color>
+    <color name="primaryDarkColor">@color/HotPinkPastel</color>
+    
+    <color name = "primary_text" >#FFDBCF00</color >
     <color name = "window_background" >#FFB1A78A</color >
     <color name = "accent" >#FF8BC34A</color >
-    <color name = "dark_primary" >#C8FAB9B5</color >
-    <!-- +++++++++++++++++++++++ -->
+    <color name = "dark_primary" >@color/Coral</color >
+    <color name = "textColor">#FF294C60</color>
+    <!-- Sur les textes des bouton -->
+    <color name = "colorOnPrimary">#CC575324</color>
+    <color name = "colorOnSecondary">#FF000000</color>
+    <color name = "colorPrimaryVariant">#FF0035C9</color>
+    <color name = "colorSecondaryVariant">#FFFFC0FF</color>
+    <color name = "colorSurface">#FF000000</color>
+    <color name = "colorOnSurface">#FFF8AFA6</color>
+    <color name = "colorError">#FFB00020</color>
+    <color name = "colorOnBackground">#FFB0FF20</color>
+    
+    
+    <!-- ******************************************************* -->
+    
     
     <color name = "black" >#FF000000</color >
     <color name = "white" >#FFFFFFFF</color >
+    
+    <!-- ******************************************************* -->
+    <!-- ******************** PALETTE COLOR ******************** -->
+    <!-- ******************************************************* -->
+    
+    <!-- Rosy Dew color combination -->
+    <color name = "CreamRosyDew">#FFF9F1F0</color>
+    <color name = "RoseQuartzRosyDew">#FFFADCD9</color>
+    <color name = "DustyRoseRosyDew">#FFF8AFA6</color>
+    <color name = "CoralRosyDew">#FFF79489</color>
+    
+    
+    <!-- Pastel Dreams color combination  -->
+    <color name="YellowPastel">#FFF8C0C8</color>
+    <color name="MintPastel">#FFB4F8C8</color>
+    <color name="TiffanyBluePastel">#FFA0E7E5</color>
+    <color name="HotPinkPastel">#FFFFAEBC</color>
+    
+    <!-- Soft in Hue color combination -->
+    <color name="RosewaterSoftinHue">#FFF8C0C8</color>
+    <color name="IvorySoftinHue">#FFEFE7D3</color>
+    <color name="LilacSoftinHue">#FFD3BBDD</color>
+    <color name="PewterSoftinHue">#FFECE3F0</color>
+    
+    <!-- https://m2.material.io/design/color/the-color-system.html -->
+    <color name = "primary" >#6200EE</color >
+    <color name = "primaryVariant" >#3700B3</color >
+    <color name = "secondary" >#03DAC6</color >
+    <color name = "secondaryVariant" >#018786</color >
+    
+    <!--  *******************************************************  -->
     
     <color name="White">#FFFFFF</color>
     <color name="Ivory">#FFFFF0</color>
@@ -21,6 +67,7 @@
     <color name="FloralWhite">#FFFAF0</color>
     <color name="LemonChiffon">#FFFACD</color>
     <color name="Cornsilk">#FFF8DC</color>
+    <color name = "Coral">#FFF79489</color>
     <color name="Seashell">#FFF5EE</color>
     <color name="LavenderBlush">#FFF0F5</color>
     <color name="PapayaWhip">#FFEFD5</color>
@@ -36,7 +83,7 @@
     <color name="Orange">#FFA500</color>
     <color name="LightSalmon">#FFA07A</color>
     <color name="DarkOrange">#FF8C00</color>
-    <color name="Coral">#FF7F50</color>
+    <color name="Coral2">#FF7F50</color>
     <color name="HotPink">#FF69B4</color>
     <color name="Tomato">#FF6347</color>
     <color name="OrangeRed">#FF4500</color>
