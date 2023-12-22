@@ -53,25 +53,26 @@ Utilisez des rôles tertiaires pour des accents contrastés qui équilibrent les
 
 Utilisez des rôles de surface pour des arrière-plans plus neutres et des couleurs de conteneur pour des composants tels que des cartes, des feuilles et des boîtes de dialogue.
 
-# Couleurs inversées
+# Inverse colors
 
 Les rôles inverses sont appliqués de manière sélective aux composants pour obtenir des couleurs inverses de celles de l’interface utilisateur environnante, créant ainsi un effet de contraste.
 
-# Contour
+# Outline
 
 Il existe deux couleurs de contour à utiliser sur la surface :<br>
 Contour : limites importantes, telles qu’un contour de champ de texte<br>
 Variante de contour – Éléments décoratifs, tels que des séparateurs
+Fixed accent colors
 
-# Couleurs d’accentuation fixes
+# Fixed accent colors
 
 La plupart des produits n’auront pas besoin d’utiliser ces rôles de couleur complémentaires. Cependant, certains produits nécessitent la plus grande flexibilité et le plus grand contrôle qu’offrent les rôles complémentaires. Si vous n’êtes pas sûr que votre produit doive utiliser les rôles complémentaires, ce n’est probablement pas le cas et vous pouvez les ignorer.
 
-# Couleurs d’accentuation fixes
+# On fixed accent colors
 
 Les couleurs fixes sont utilisées pour le texte et les icônes qui se trouvent au-dessus de la couleur fixe correspondante.  Par exemple, sur la couleur fixe principale est utilisé pour le texte et les icônes par rapport à la couleur fixe principale. Le même usage s’applique pour les couleurs secondaires et tertiaires équivalentes.
 
-# Surface clairs et sombres
+# Bright and dim surface roles
 
 Il existe deux rôles de surface complémentaires :<br>
 Surface dim – Couleur de surface la plus faible dans les thèmes clairs et sombres<br>
