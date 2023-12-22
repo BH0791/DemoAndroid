@@ -36,6 +36,24 @@
         <item name = "colorSurfaceInverse">#FFEB3B</item>
         <item name = "colorOnSurfaceInverse">#B5AD65</item>
         <item name = "colorPrimaryInverse">#857A1D</item>
+        <!-- Outline -->
+        <item name = "colorOutline">#F44336</item>
+        <item name = "colorOutlineVariant">#FF4786</item>
+        <!-- Fixed accent colors -->
+        <item name = "colorPrimaryFixed">#857A1D</item>
+        <item name = "colorPrimaryFixedDim">#857A1D</item>
+        <item name = "colorSecondaryFixed">#857A1D</item>
+        <item name = "colorSecondaryFixedDim">#857A1D</item>
+        <item name = "colorTertiaryFixed">#857A1D</item>
+        <item name = "colorTertiaryFixedDim">#857A1D</item>
+        <!-- On fixed accent colors -->
+        <item name = "colorOnPrimaryFixedVariant">#9C27B0</item>
+        <item name = "colorOnSecondaryFixedVariant">#9579C6</item>
+        <item name = "colorOnTertiaryFixedVariant">#4104AE</item>
+        <!-- Bright and dim surface roles -->
+        <item name = "colorSurfaceDim">#00BCD4</item>
+        <item name = "colorSurfaceBright">#00E2FF</item>
+        
     </style >
 
 </resources >
