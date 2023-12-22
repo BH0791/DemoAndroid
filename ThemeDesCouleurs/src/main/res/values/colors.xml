@@ -32,6 +32,12 @@
     <!-- ******************** PALETTE COLOR ******************** -->
     <!-- ******************************************************* -->
     
+    <!-- Exemple-themeDefault -->
+    <color name = "purple500">#6200EE</color>
+    <color name = "purple700">#3700B3</color>
+    <color name = "vert400">#03DAC6</color>
+    <color name = "vert600">#018786</color>
+    
     <!-- Rosy Dew color combination -->
     <color name = "CreamRosyDew">#FFF9F1F0</color>
     <color name = "RoseQuartzRosyDew">#FFFADCD9</color>

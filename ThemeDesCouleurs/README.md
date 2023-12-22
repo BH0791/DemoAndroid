@@ -2,7 +2,7 @@
 ---
 <p>Utilisation du système de thème des couleurs</p>
 
-*Fichier colors.xml et themes.xml*
+*Fichier colors.xml et themes.xml*<br>
 *Il peut s'agir d'une valeur de couleur, sous la forme "#rgb", "#argb", "#rrggbb" ou "#aarrggbb".*
 
 | Nom de l’attribut              | Description                                                                                                                                                                                                                                                                   | Valeur par défaut | 

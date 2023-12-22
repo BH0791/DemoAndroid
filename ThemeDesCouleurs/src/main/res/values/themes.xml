@@ -42,7 +42,24 @@
         <!-- C'est pout tout le monde -->
     
     </style >
-    
+    <style name = "themeDefault" parent="Theme.MaterialComponents.DayNight">
+        <!-- Toutes ces couleurs peuvent être personnalisées pour votre application. -->
+        <item name="colorPrimary">@color/purple500</item>
+        <item name = "colorPrimaryVariant">@color/purple700</item>
+        <item name = "colorSecondary">@color/vert400</item>
+        <item name = "colorSecondaryVariant">@color/vert600</item>
+        
+        
+        <item name = "android:colorBackground">#FFFFFF</item>
+        <item name = "colorSurface">#FFFFFF</item>
+        <item name = "colorError">#B00020</item>
+        
+        <item name = "colorOnPrimary">#FFFFFF</item>
+        <item name = "colorOnSecondary">#000000</item>
+        <item name = "colorOnBackground">#000000</item>
+        <item name = "colorOnSurface">#000000</item>
+        <item name = "colorOnError">#FFFFFF</item>
+    </style>
     
     
     <style name="Theme.MyApp" parent="Theme.MaterialComponents.DayNight">
