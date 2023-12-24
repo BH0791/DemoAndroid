@@ -20,7 +20,7 @@
             android:id = "@+id/textView"
             android:layout_gravity="center"
             android:background="@drawable/my_border"
-            style="@style/shadoweffect"
+            style="@style/shadoweffect_on"
             />
     
     <Button
