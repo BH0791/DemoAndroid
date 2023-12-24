@@ -1,6 +1,16 @@
-# Thème des couleurs
+# Thème des couleurs *(Theme.Material3.Light.NoActionBar)*
 ---
 <p>Utilisation du système de thème des couleurs</p>
+
+**Surface** : rôle utilisé pour les arrière-plans et les grandes zones à faible accentuation de l’écran.<br>
+
+**Primaire**, **Secondaire**, **Tertiaire** : rôles de couleur d’accentuation utilisés pour accentuer ou atténuer l’accentuation des éléments de premier plan.<br>
+
+**Conteneur** : rôles utilisés comme couleur de remplissage pour les éléments de premier plan tels que les boutons. Ils ne doivent pas être utilisés pour du texte ou des icônes.<br>
+
+**Activé** : les rôles commençant par ce terme indiquent une couleur pour le texte ou les icônes au-dessus de la couleur parent associée. Par exemple, sur primary est utilisé pour le texte et les icônes par rapport à la couleur de remplissage principale.<br>
+
+**Variant** : les rôles se terminant par ce terme offrent une alternative moins importante à sa paire non variante. Par exemple, la variante de contour est une version moins accentuée de la couleur de contour.<br><br>
 
 *Fichier colors.xml et themes.xml*<br>
 *Il peut s'agir d'une valeur de couleur, sous la forme "#rgb", "#argb", "#rrggbb" ou "#aarrggbb".*

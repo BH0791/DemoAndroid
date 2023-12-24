@@ -11,13 +11,16 @@
         >
     
     <TextView
-            android:layout_width = "wrap_content"
-            android:layout_height = "wrap_content"
+            android:layout_width = "100dp"
+            android:layout_height = "30dp"
             android:text = "TextView"
+            android:gravity="center_horizontal|center_vertical"
             android:textSize = "18sp"
             android:layout_marginTop = "5dp"
             android:id = "@+id/textView"
             android:layout_gravity="center"
+            android:background="@drawable/my_border"
+            style="@style/shadoweffect"
             />
     
     <Button
@@ -34,9 +37,10 @@
             android:layout_width = "match_parent"
             android:layout_height = "wrap_content"
             android:inputType = "text"
-            android:text = "Name"
             android:layout_marginTop = "5dp"
             android:ems = "10"
+            android:hint="Teste"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:id = "@+id/editTextText"
             />
     
@@ -56,5 +60,33 @@
             android:layout_marginTop = "5dp"
             android:id = "@+id/toggleButton"
             />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop = "5dp"
+            android:text="secondary_color"
+            android:textAllCaps="true"
+            android:textSize="12sp" />
+    
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop = "5dp"
+            android:contentDescription="email_icon"
+            app:srcCompat="@android:drawable/ic_dialog_email" />
+    
+    <Switch
+            android:text = "Switch"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/switch1"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            tools:ignore = "UseSwitchCompatOrMaterialXml"
+            />
+    
 
 </LinearLayout >
