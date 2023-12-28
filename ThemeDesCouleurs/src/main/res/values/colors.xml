@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources >
     <!-- Base application theme. -->
-    <color name="primaryColor">@color/MintPastel</color>
-    <color name = "secondaryColor" >@color/YellowPastel</color >
-    <color name="primaryLightColor">@color/TiffanyBluePastel</color>
-    <color name="primaryDarkColor">@color/HotPinkPastel</color>
+    <color name="primaryColor">#7E9591</color>
+    <color name = "colorPrimaryVariant">#FF947E94</color>
+    <color name = "colorOnPrimary">#FF3F273F</color>
     
-    <color name = "primary_text" >#FFDBCF00</color >
-    <color name = "window_background" >#FFB1A78A</color >
-    <color name = "accent" >#FF8BC34A</color >
+    <color name="primaryLightColor">#E8CC68</color>
+    <color name="primaryDarkColor">#CBEFC6</color>
+    <color name = "primary_text" >#FFCBEFB6</color >
     <color name = "dark_primary" >@color/Coral</color >
+    
+    <color name = "secondaryColor" >#99B5AC</color >
+    <color name = "colorSecondaryVariant">#907E94</color>
+    <color name = "colorOnSecondary">#3B273F</color>
+    
+    <color name = "window_background" >#FFE1F5C5</color >
+    <color name = "accent" >#FF8BC34A</color >
     <color name = "textColor">#FF294C60</color>
-    <!-- Sur les textes des bouton -->
-    <color name = "colorOnPrimary">@color/purple_50</color>
-    <color name = "colorOnSecondary">#FF000000</color>
-    <color name = "colorPrimaryVariant">#FF0035C9</color>
-    <color name = "colorSecondaryVariant">#FFFFC0FF</color>
+    
     <color name = "colorSurface">#FF000000</color>
     <color name = "colorOnSurface">#FFF8AFA6</color>
     <color name = "colorError">#FFB00020</color>
@@ -45,6 +47,19 @@
     <color name="blue">#0288D1</color>
     <color name="blue_dark">#005B9F</color>
     <color name="blue_light">#81D4FA</color>
+    
+    <!-- Complementary-pastel -->
+    <color name = "complpastel40">#FFAB88A5</color>
+    <color name = "complpastel30">#FFC6ADC8</color>
+    <color name = "complpastel20">#FFDAE1EE</color>
+    <color name = "complpastel10">#FFEBECF2</color>
+    
+    <!-- Pastel -->
+    <color name = "pastel40">#FF88AB8E</color>
+    <color name = "pastel30">#FFAFC8AD</color>
+    <color name = "pastel20">#FFEEE7DA</color>
+    <color name = "pastel10">#FFF2F1EB</color>
+    
     
     <!-- Exemple-themeDefault -->
     <color name = "purple500">#6200EE</color>
