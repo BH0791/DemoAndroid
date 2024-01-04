@@ -12,4 +12,5 @@
 > MyToolBar<br>
 > LesCouleurs<br>
 > BarreInferieur<br><br>
+> ---
 >*Jdk-21.0.1 Gradle-8.5 et IDE:Android Studio Jellyfish | 2023.3.1 Canary 2*
