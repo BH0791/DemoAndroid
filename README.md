@@ -12,4 +12,4 @@
 > MyToolBar<br>
 > LesCouleurs<br>
 > BarreInferieur<br>
->*Jdk-21 Gradle-8.5 et IDE:Iguana-2023.2.1-Canary-18*
+>*Jdk-21 Gradle-8.5 et IDE:Android Studio Jellyfish | 2023.3.1 Canary 2*
