@@ -1,0 +1,8 @@
+https://stacklima.com/barre-de-navigation-inferieure-dans-android/
+https://gitea.com/sadan49/M3-Components/src/branch/main/docs/components/BottomAppBar.md
+https://github.com/material-components/material-components-android/blob/master/docs/components/BottomAppBar.md
+https://stacklima.com/barre-de-navigation-inferieure-dans-android/
+
+https://blog.octo.com/customiser-les-styles-themes-sur-android
+https://www.jetbrains.com/help/idea/working-with-projects.html#settings-types
+https://codelabs.developers.google.com/codelabs/apply-dynamic-color#7

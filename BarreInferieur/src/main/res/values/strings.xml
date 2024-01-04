@@ -1,3 +1,11 @@
 <resources >
     <string name = "app_name" >DemoAndroid</string >
+    <string name = "content_description_one" >Je suis la person</string >
+    <string name = "content_description_two" >e suis la home</string >
+    <string name = "content_description_three" >Je suis le setting</string >
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name = "hello_blank_fragment" >Hello blank fragment</string >
+    <string name = "btn_neutral" >Neutral</string >
+    <string name = "btn_negative" >Negative\t</string >
+    <string name = "btn_positive" >Positive</string >
 </resources >
